@@ -4,4 +4,6 @@
 
 .Title{
     font-family: cursive;
+    position: relative;
+    left: 10px;
 }
