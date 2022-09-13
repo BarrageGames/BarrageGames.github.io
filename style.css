@@ -1,4 +1,7 @@
+.flex{
+    display: flex;
+}
+
 .Title{
     font-family: cursive;
-    display: flex;
 }
