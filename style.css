@@ -34,3 +34,14 @@ li {
 html{
     background-color: rgb(255, 211, 144);
 }
+
+.h2 {
+    padding: 1rem 3rem;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#734e30), to(#734e30));
+    background-image: -webkit-linear-gradient(left, #734e30 0%, #734e30 100%);
+    background-image: linear-gradient(to right, #734e30 0%, #734e30 100%);
+  }
+  
