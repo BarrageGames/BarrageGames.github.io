@@ -53,9 +53,3 @@ html{
   background-image: -webkit-linear-gradient(right, #734e30 0%, #734e30 100%);
   background-image: linear-gradient(to left, #734e30 0%, #734e30 100%);
 }
-
-html {
-  max-width: 800px; /* 最大幅 */
-  min-width: 240px; /* 最小幅 */
-}
-html img { width: 100%; }
