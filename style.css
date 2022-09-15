@@ -43,5 +43,14 @@ html{
     background-image: -webkit-gradient(linear, left top, right top, from(#734e30), to(#734e30));
     background-image: -webkit-linear-gradient(left, #734e30 0%, #734e30 100%);
     background-image: linear-gradient(to right, #734e30 0%, #734e30 100%);
-  }
+}
+
+.SubTitle {
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 100vh;
+  background-image: -webkit-gradient(linear, right top, left top, from(#9be15d), to(#00e3ae));
+  background-image: -webkit-linear-gradient(right, #9be15d 0%, #00e3ae 100%);
+  background-image: linear-gradient(to left, #9be15d 0%, #00e3ae 100%);
+}
   
