@@ -1,2 +1,0 @@
-var innerDiv = document.getElementById('header');
-innerDiv.innerHTML = '<divclass="flex"><imgsrc="image/logo.webp"width="100px"height="100px"><h1class="Title">BarrageGames</h1></div><nav><ul><li><aclass="bar"href="index.html">ホーム</a></li><li><aclass="bar"href="server.html">サーバー紹介</a></li><li><aclass="bar"href="activity.html">最新情報</a></li><li><aclass="bar"href="discord.html">Discord</a></li><li><aclass="bar"href="FAQ.html">よくあるご質問</a></li><li><aclass="bar"href="contact.html">お問い合わせ</a></li><li><aclass="bar"href="about.html">運営紹介</a></li></ul></nav>';
