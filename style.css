@@ -30,6 +30,11 @@ li {
   color: white;
   margin-right: 35px;
 }
+@media screen and (max-width: 800px) {
+  h1{
+    font-size: 5px
+  }
+}
 @media screen and (max-width: 480px) {
   h1{
     font-size: 3px
