@@ -3,9 +3,9 @@
 }
 
 .Title{
-    font-family: cursive;
-    position: relative;
-    left: 30px;
+  font-family: cursive;
+  position: relative;
+  left: 30px;
 }
 
 nav {
@@ -29,6 +29,11 @@ li {
   text-decoration: none;
   color: white;
   margin-right: 35px;
+}
+@media screen and (max-width: 480px) {
+  h1{
+    font-size: 3px
+  }
 }
 
 html{
