@@ -64,91 +64,35 @@ html{
   background-image: linear-gradient(to left, #734e30 0%, #734e30 100%);
 }
 
-/* Plan */
-
-
-h1, h2, h3, h4, h5, h6 { font-size: 150%; }
-.plan-content { width: 75%; margin-left: auto; margin-right: auto; }
-
-
-/* 表 */
-table {
-  border-collapse: collapse; border-spacing: 0;
-  width: 100%;
-}
-th { font-size: 110%; }
-th.plan-subject { text-align: left; padding-left: 1%; }
-td {
-  border-top: solid rgba(0, 0, 0, 0.15) 0.1vh;
-  border-bottom: solid rgba(0, 0, 0, 0.15) 0.1vh;
-  padding: 2vh 1vw;
-}
-td:not([class]) { border-left: solid rgba(0, 0, 0, 0.15) 0.1vh; }
-th:not([class]) { border-left: solid rgba(0, 0, 0, 0.15) 0.1vh; }
-.plan-subject { width: 80%; }
-td:not([class]) { text-align: center; width: 10%; }
-
-
-/* プラン表 */
-.plan-container { width: 99%; margin-left: 0.5%; }
-
-.plan-column {
-  background-color: rgba(121, 121, 121, 0.08);
-  padding: 1vw; margin: 1vw;
-  border-radius: 10px;
-  font-size: 100%;
-}
-hr.plan-column {
-  border: none;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-.plan-title {
-  font-weight: bold; font-size: 130%;
-  text-align: center;
-  padding: 1vw;
+.flex_box {
+  display: flex;              /* フレックスボックスにする */
+  flex-flow: column;
 }
 
-.plan-center { text-align: center; }
-
-.plan-button {
-  text-align: center; margin: 3vh 1vw;
-  background-color: rgba(121, 121, 121, 0.85);
-  border-radius: .5rem; padding: 1.8vh;
-  color: white; cursor: pointer;
-}
-.plan-button:hover {
-  background-color: rgba(121, 121, 121, 1);
-  -webkit-transition: all 250ms 0s ease-in-out;
-  transition: all 250ms 0s ease-in-out;
+.flex_box {
+  background-color: rgb(163, 103, 14);     /* 背景色指定 */
+  padding:  10px;             /* 余白指定 */
 }
 
-
-/* レスポンシブ */
-@media screen and (max-width: 768px) {
-  .plan-column { padding: 3% 5%; margin: 3vh 0; }
-
-  .plan-subject { width: 60%; }
-  td:not([class]) { width: 18%; }
+.flex_item {
+  padding: 10px;
+  color:  rgb(201, 156, 10);               /* 文字色 */
+  margin:  50px;              /* 外側の余白 */
+  border-radius:  5px;        /* 角丸指定 */
 }
-@media screen and (min-width: 769px) {
-  .plan-container {
-    display: flex;
-    justify-content: space-around;
-  }
-  .plan-column {
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-  }
-  .detail { flex-grow: 1; }
-}
-@media screen and (max-width: 1366px) {
-  .plan-content { width: 90%; margin: 0; padding: 5vw; }
-  th { font-size: 100%; }
-}
-@media screen and (min-width: 769px) and (max-width: 1366px) {
-  .plan-content { width: 90%; }
 
-  .plan-subject { width: 80%; }
-  td:not([class]) { width: 10%; }
+.flex_item:nth-child(1) {
+  background-color:  #2196F3; /* 背景色指定 */
+}
+
+.flex_item:nth-child(2) {
+  background-color:  #4CAF50; /* 背景色指定 */
+}
+
+.flex_item:nth-child(3) {
+  background-color: #3F51B5; /* 背景色指定 */
+}
+
+.flex_item:nth-child(4) {
+  background-color:  #00BCD4; /* 背景色指定 */
 }
