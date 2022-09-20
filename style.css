@@ -70,27 +70,27 @@ html{
 }
 
 .flex_box {
-  background-color: rgb(163, 103, 14);     /* 背景色指定 */
+  background-color: rgba(0, 0, 0, 0);     /* 背景色指定 */
   padding:  10px;             /* 余白指定 */
 }
 
 .flex_item {
   padding: 10px;
-  color:  rgb(201, 156, 10);               /* 文字色 */
+  color:  rgb(255, 255, 255);               /* 文字色 */
   margin:  50px;              /* 外側の余白 */
   border-radius:  5px;        /* 角丸指定 */
 }
 
 .flex_item:nth-child(1) {
-  background-color:  #2196F3; /* 背景色指定 */
+  background-color:  #00c8ff; /* 背景色指定 */
 }
 
 .flex_item:nth-child(2) {
-  background-color:  #4CAF50; /* 背景色指定 */
+  background-color:  #00c8ff; /* 背景色指定 */
 }
 
 .flex_item:nth-child(3) {
-  background-color: #3F51B5; /* 背景色指定 */
+  background-color: #00c8ff; /* 背景色指定 */
 }
 
 .flex_item:nth-child(4) {
