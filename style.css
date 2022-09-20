@@ -147,13 +147,13 @@ html{
   bottom: 0;
 }
 
-h2 {
+.paid {
   position: relative;
   padding: 1rem .5rem;
 }
 
-h2:before,
-h2:after {
+.paid:before,
+.paid:after {
   position: absolute;
   left: 0;
   width: 100%;
@@ -164,11 +164,11 @@ h2:after {
   background-image: linear-gradient(to left, #8000ff 0%, #330867 100%);
 }
 
-h2:before {
+.paid:before {
   top: 0;
 }
 
-h2:after {
+.paid:after {
   bottom: 0;
 }
 
