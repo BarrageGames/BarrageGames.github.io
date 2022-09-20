@@ -93,6 +93,82 @@ html{
   background-color: #00c8ff; /* 背景色指定 */
 }
 
-.flex_item:nth-child(4) {
-  background-color:  #00BCD4; /* 背景色指定 */
+.flex_box_2 {
+  display: flex;              /* フレックスボックスにする */
+  flex-flow: column;
 }
+
+.flex_box_2 {
+  background-color: rgba(0, 0, 0, 0);     /* 背景色指定 */
+  padding:  10px;             /* 余白指定 */
+}
+
+.flex_item_2 {
+  padding: 10px;
+  color:  rgb(255, 255, 255);               /* 文字色 */
+  margin:  50px;              /* 外側の余白 */
+  border-radius:  5px;        /* 角丸指定 */
+}
+
+.flex_item_2:nth-child(1) {
+  background-color:  #8000ff; /* 背景色指定 */
+}
+
+.flex_item_2:nth-child(2) {
+  background-color:  #8000ff; /* 背景色指定 */
+}
+
+.flex_item_2:nth-child(3) {
+  background-color: #8000ff; /* 背景色指定 */
+}
+
+.free {
+  position: relative;
+  padding: 1rem .5rem;
+}
+
+.free:before,
+.free:after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  content: '';
+  background-image: -webkit-gradient(linear, right top, left top, from(#00c8ff), to(#085f67));
+  background-image: -webkit-linear-gradient(right, #00c8ff 0%, #085f67 100%);
+  background-image: linear-gradient(to left, #00c8ff 0%, #085f67 100%);
+}
+
+.free:before {
+  top: 0;
+}
+
+.free:after {
+  bottom: 0;
+}
+
+h2 {
+  position: relative;
+  padding: 1rem .5rem;
+}
+
+h2:before,
+h2:after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  content: '';
+  background-image: -webkit-gradient(linear, right top, left top, from(#8000ff), to(#330867));
+  background-image: -webkit-linear-gradient(right, #8000ff 0%, #330867 100%);
+  background-image: linear-gradient(to left, #8000ff 0%, #330867 100%);
+}
+
+h2:before {
+  top: 0;
+}
+
+h2:after {
+  bottom: 0;
+}
+
